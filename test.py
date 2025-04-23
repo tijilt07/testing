@@ -1,3 +1,4 @@
 print("Hello world")
 print("Hi")
-=PROPER(SUBSTITUTE(SUBSTITUTE(LEFT(B29,FIND("@",B29)-1),"."," "),"[0-9]",""))
+=PROPER(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(LEFT(C2,FIND("@",C2)-1),"0",""),"1",""),"2",""),"3",""),"4",""),"5",""),"6",""),"7",""),"8",""),"9",""),"."," "))
+
